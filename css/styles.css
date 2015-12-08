@@ -1,6 +1,17 @@
 body {
 	margin: 0 auto;
-	padding: 0 auto;
+	color: #fff;
 }
-
-
+.laptop-image {
+	max-width: 100%;
+	height: 931px;
+	background-image: url("laptopimage.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+}
+form {
+	background-color: #fff;
+}
+form {
+	color: #000;
+}
