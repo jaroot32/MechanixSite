@@ -1,0 +1,11 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+.row {
+	background-color: #000;
+}
+.opaque {
+	opacity: 0.1;
+    filter: alpha(opacity=10); /* For IE8 and earlier */
+}

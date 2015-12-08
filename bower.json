@@ -1,0 +1,18 @@
+{
+  "name": "MechanixSite",
+  "version": "0.0.0",
+  "homepage": "https://github.com/jaroot32/MechanixSite",
+  "authors": [
+    "jaroot32 <jonathanroot15@gmail.com>"
+  ],
+  "description": "PSD to Bootstrap assignment.",
+  "main": "index.hbs",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
