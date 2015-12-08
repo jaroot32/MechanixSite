@@ -5,7 +5,7 @@ body {
 .row {
 	background-color: #000;
 }
-.opaque {
+img {
 	opacity: 0.1;
     filter: alpha(opacity=10); /* For IE8 and earlier */
 }
