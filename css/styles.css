@@ -1,17 +1,17 @@
 body {
 	margin: 0 auto;
 	padding: 0 auto;
-	font-family: font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	color: #fff;
 }
 .container-fluid {
 	padding: 0;
 }
 .logo {
-	font-family: 'Quicksand', sans-serif;
+	font-weight: 700;
 }
 .phone {
-	font-family: 'Quicksand', sans-serif;
+	font-weight: 700;
 	font-size: 20px;
 }
 .phoneblue {
@@ -25,10 +25,21 @@ body {
 }
 .sub {
 	color: #008ED6;
+	line-height: 125%;
+}
+.sub-center {
+	margin-top: 4em;
+}
+.sub-title {
+	margin-bottom: 1em;
 }
 .mega {
 	margin-top: 1px;
 	font-size: 48px;
+	line-height: 125%;
+}
+.subheader-paragraph {
+	line-height: 125%;
 }
 .button1 {
 	background-color: #008DD5;
@@ -81,13 +92,13 @@ button.btn.btn-default.button1form h5 {
 	padding: 0 36px 0 36px;
 }
 .button1form {
-	margin: 2em 2em 2em 0;
+	margin: 2em 2em 4em 0;
 	background-color: #008DD5;
 	border: none;
 	color: #fff;
 }
 .squeeze {
-	margin: 97px;
+	padding: 6em 10em 4em 10em;
 }
 article {
 	color: #000;
@@ -113,6 +124,9 @@ section {
 .testimonial-name {
 	font-size: 16px;
 }
+.squeeze-testimonials {
+	padding: 2em;
+}
 footer {
 	background-color: #000;
 }
@@ -125,6 +139,10 @@ footer {
 .fa-linkedin, .fa-facebook {
 	color: grey;
 }
+.copy-policy {
+	margin: 0 auto;
+	padding: 1em 0 3em 0;
+}
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
 
@@ -133,21 +151,15 @@ footer {
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: @screen-md-min) { 
-
-
 }
 
 /* Large devices (large desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
     /* styles for wide screens */
-    .laptop-image {
-	max-width: 100%;
-	height: 550px;
-	background-image: url("laptopimage.jpg");
-	background-repeat: no-repeat;
-	-webkit-background-size: cover;
-  	-moz-background-size: cover;
-  	-o-background-size: cover;
-  	background-size: cover;
+.laptop-image {
+	height: 640px;
+}
+.phone {
+	margin-left: 4em;
 }
 }
