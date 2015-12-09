@@ -1,13 +1,42 @@
 body {
 	margin: 0 auto;
 	padding: 0 auto;
+	font-family: font-family: 'Source Sans Pro', sans-serif;
 	color: #fff;
 }
 .container-fluid {
 	padding: 0;
 }
-.quicksand {
+.logo {
 	font-family: 'Quicksand', sans-serif;
+}
+.phone {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 20px;
+}
+.phoneblue {
+	color: #008ED6;
+}
+.phonenumber {
+	color: #fff;
+}
+.sub {
+	color: #008ED6;
+}
+.mega {
+	font-size: 48px;
+}
+.button1 {
+	background-color: #008DD5;
+	border: none;
+	color: #fff;
+}
+.button2 {
+	background-color: transparent;
+	color: #fff;
+}
+.buttongroup {
+	padding-top: 48px;
 }
 .laptop-image {
 	max-width: 100%;
@@ -15,16 +44,25 @@ body {
 	background-image: url("laptopimage.jpg");
 	background-repeat: no-repeat;
 	-webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
 }
 form {
 	background-color: #fff;
 	color: #000;
 }
+.formformat {
+	margin: 3em
+}
+.button1form {
+	margin: 2em 2em 2em 0;
+	background-color: #008DD5;
+	border: none;
+	color: #fff;
+}
 .squeeze {
-	margin: 1em;
+	margin: 97px;
 }
 article {
 	color: #000;
@@ -32,7 +70,7 @@ article {
 .fa {
 	width: 60px;
 	height: 60px;
-	font-size: 28px;
+	font-size: 26px;
     color: #008DD5;
     text-align: center;
     line-height: 60px;
@@ -47,6 +85,18 @@ article {
 section {
 	background-color: #000;
 }
+.testimonial-name {
+	font-size: 16px;
+}
 footer {
 	background-color: #000;
+}
+.thin {
+	margin: 25px 0;
+    height: .04em;
+    background: black;
+    background: -webkit-gradient(linear, 0 100%, 100% 0, from(black), to(black), color-stop(50%, white));
+}
+.fa-linkedin, .fa-facebook {
+	color: grey;
 }
