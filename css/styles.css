@@ -1,13 +1,23 @@
 body {
 	margin: 0 auto;
+	padding: 0 auto;
 	color: #fff;
+}
+.container-fluid {
+	padding: 0;
+}
+.quicksand {
+	font-family: 'Quicksand', sans-serif;
 }
 .laptop-image {
 	max-width: 100%;
-	height: 540px;
+	height: 931px;
 	background-image: url("laptopimage.jpg");
 	background-repeat: no-repeat;
-	background-size: 100% auto;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 form {
 	background-color: #fff;
@@ -34,7 +44,7 @@ article {
     border: 1px solid #D3D3D3;
     position: absolute;
 }
-.testimonials {
+section {
 	background-color: #000;
 }
 footer {
