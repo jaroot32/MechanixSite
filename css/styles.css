@@ -20,10 +20,14 @@ body {
 .phonenumber {
 	color: #fff;
 }
+.subheader {
+	padding-top: 36px;
+}
 .sub {
 	color: #008ED6;
 }
 .mega {
+	margin-top: 1px;
 	font-size: 48px;
 }
 .button1 {
@@ -35,8 +39,17 @@ body {
 	background-color: transparent;
 	color: #fff;
 }
+button.btn.btn-default.button2 {
+	margin-left: 5px;
+}
+button.btn.btn-default.button1 h6 {
+	padding: 0 36px 0 36px;
+}
+button.btn.btn-default.button2 h6 {
+	padding: 0 36px 0 36px;
+}
 .buttongroup {
-	padding-top: 48px;
+	margin-top: 24px;
 }
 .laptop-image {
 	max-width: 100%;
@@ -52,8 +65,20 @@ form {
 	background-color: #fff;
 	color: #000;
 }
-.formformat {
-	margin: 3em
+.form-format {
+	margin: 2em
+}
+.contact {
+	padding-top: 10px;
+	margin-bottom: 1px;
+}
+.complete {
+	margin-top: 1px;
+	padding-bottom: 15px;
+	line-height: 70%;
+}
+button.btn.btn-default.button1form h5 {
+	padding: 0 36px 0 36px;
 }
 .button1form {
 	margin: 2em 2em 2em 0;
@@ -99,4 +124,30 @@ footer {
 }
 .fa-linkedin, .fa-facebook {
 	color: grey;
+}
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) { ... }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) { 
+
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    /* styles for wide screens */
+    .laptop-image {
+	max-width: 100%;
+	height: 550px;
+	background-image: url("laptopimage.jpg");
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
 }
