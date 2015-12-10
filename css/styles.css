@@ -28,7 +28,10 @@ body {
 	line-height: 125%;
 }
 .sub-center {
-	margin-top: 4em;
+	padding-top: 8em;
+}
+.sub-testimonial {
+	padding-top: 2em;
 }
 .sub-title {
 	margin-bottom: 1em;
@@ -98,10 +101,16 @@ button.btn.btn-default.button1form h5 {
 	color: #fff;
 }
 .squeeze {
-	padding: 6em 10em 4em 10em;
+	padding: 2em 10em 4em 10em;
+}
+div small {
+	line-height: 200%;
 }
 article {
 	color: #000;
+}
+.item {
+	margin: 1em 0 1em 0;
 }
 .fa {
 	width: 60px;
@@ -120,6 +129,9 @@ article {
 }
 section {
 	background-color: #000;
+}
+i {
+	line-height: 133%;
 }
 .testimonial-name {
 	font-size: 16px;
@@ -143,16 +155,12 @@ footer {
 	margin: 0 auto;
 	padding: 1em 0 3em 0;
 }
-/* Extra small devices (phones, less than 768px) */
-/* No media query since this is the default in Bootstrap */
 
-/* Small devices (tablets, 768px and up) */
-@media (min-width: @screen-sm-min) { ... }
-
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: @screen-md-min) { 
+@media (max-width: 950px) {
+.small-device-header {
+	margin: 1em;
 }
-
+}
 /* Large devices (large desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
     /* styles for wide screens */
@@ -161,5 +169,8 @@ footer {
 }
 .phone {
 	margin-left: 4em;
+}
+.sub-center {
+	padding-top: 3em;
 }
 }

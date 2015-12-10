@@ -14,9 +14,9 @@ Browsers - All modern browsers
 
 [View on gh-pages](http://jaroot32.github.io/MechanixSite/)
 
-cd into directory 
+cd into directory
 
 bower install
 
-open index.html in your browser. 
+open index.html in your browser.
 
