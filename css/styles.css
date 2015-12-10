@@ -160,6 +160,9 @@ footer {
 .small-device-header {
 	margin: 1em;
 }
+.sub-center {
+	padding-top: 16em;
+}
 }
 /* Large devices (large desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
