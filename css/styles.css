@@ -9,6 +9,7 @@ body {
 }
 .logo {
 	font-weight: 700;
+	margin: 1em;
 }
 .phone {
 	font-weight: 700;
@@ -16,12 +17,14 @@ body {
 }
 .phoneblue {
 	color: #008ED6;
+	margin: 1em;
 }
 .phonenumber {
 	color: #fff;
 }
 .subheader {
 	padding-top: 36px;
+	margin: 2em;
 }
 .sub {
 	color: #008ED6;
@@ -157,12 +160,13 @@ footer {
 	padding: 1em 0 3em 0;
 }
 
-@media (max-width: 950px) {
-.small-device-header {
-	margin: 1em;
+@media (min-width: 950px) {
+
+.laptop-image {
+	height: 640px;
 }
 .sub-center {
-	padding-top: 16em;
+	padding-top: 3em;
 }
 }
 /* Large devices (large desktops, 1200px and up) */
