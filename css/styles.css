@@ -160,17 +160,9 @@ footer {
 	padding: 1em 0 3em 0;
 }
 
-@media (min-width: 950px) {
 
-.laptop-image {
-	height: 640px;
-}
-.sub-center {
-	padding-top: 3em;
-}
-}
 /* Large devices (large desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 950px) {
     /* styles for wide screens */
 .laptop-image {
 	height: 640px;
@@ -181,4 +173,10 @@ footer {
 .sub-center {
 	padding-top: 3em;
 }
+}
+@media only screen and (min-width: 300px) {
+	.sub-center {
+	padding-top: 6em;
+	margin-top: 6em;
+	}
 }
