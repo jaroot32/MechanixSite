@@ -187,8 +187,8 @@ footer {
 	}
 @media only screen and (max-width: 375px) {
 	.sub-center {
-			padding-top: 18em;
-			margin-top: 18em;
+			padding-top: 16em;
+			margin-top: 16em;
 		}
 	}
 }
