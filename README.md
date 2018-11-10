@@ -1,6 +1,6 @@
 # Mechanix Coding Assignment
 
-##About:
+## About:
 
 PSD to Bootstrap3
 
@@ -10,7 +10,7 @@ Bootstrap 3
 
 Browsers - All modern browsers
 
-##Run:
+## Run:
 
 [View on gh-pages](http://jaroot32.github.io/MechanixSite/)
 
